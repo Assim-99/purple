@@ -1,0 +1,43 @@
+======================= Form _ Update _ profile _ Member ================;
+  <form id="form_profile_update">
+                                <div class="row mt-2">
+                                    <div class="col-md-6">
+                                        <label class="labels">Name</label>
+                                        <input disabled type="text" class="form-control" placeholder="first name" value="<?= $name ?>">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="labels">User Name</label>
+                                        <input disabled type="text" class="form-control" placeholder="User Name" value="<?= $username ?>">
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row mt-2">
+                                    <div class="col-md-6">
+                                        <label class="labels">Power</label>
+                                        <input disabled id="pr" type="text" class="form-control" value="<?= $_SESSION['pos'] ?>">
+                                    </div>
+
+
+                                    <div class="col-md-6">
+                                        <label class="labels">E-mail</label>
+
+                                        <input disabled type="text" class="form-control" placeholder="User Name" value="<?= $email ?>">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row mt-3">
+
+                                    <div class="col-md-12">
+                                        <label class="labels">Mobile Number</label>
+                                        <input disabled type="text" class="form-control" placeholder="Phone Number" value="<?= $phone ?>">
+                                    </div>
+                                </div>
+                                </form>
+
+=======================  // Form _ Update _ profile _ Member // ================;
